@@ -1,0 +1,108 @@
+body {
+    font-family: "montserrat", "open sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-tabler-cloud-check{
+    height: 25px;
+    width: 38px;
+    color: black;
+}
+
+.title_page{
+    color: white;
+    font-size: 1px;
+    line-height: 40px;  
+    font-family: "montserrat";
+    margin-left: -700px;
+}
+
+.texth2{
+    color: black;
+    font-size: 33px;
+    line-height: 40px;  
+    font-family: "montserrat";
+}
+
+.button_micuenta{
+    color: black;
+    font-size: 16px;
+    font-family: "montserrat", sans-serif;
+}
+
+.mid_page_h2{
+    color: rgb(42, 42, 42);
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 700;  
+    font-family: "Open Sans";
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plans-title{
+    color: rgb(42, 42, 42);
+    font-size: 35px;
+    line-height: 40px;  
+    font-weight: 700;  
+    font-family: "Open Sans";
+    margin-top: 8rem;
+    margin-bottom: 20px;
+}
+
+.text1-p{
+    color: black;
+    font-size: 17px;
+    line-height: 0px;  
+    font-family: "montserrat";
+    font-weight: 600;
+}
+
+.spanvpstext_descuento{
+    color: rgb(203, 28, 209);
+    font-weight: 700;
+}
+
+.precio_downh2{
+    color: dark;
+    font-weight: 500;
+    font-family: "Open Sans";
+    font-size: 22px;
+}
+
+.precio_1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.text2-p{
+    color: black;
+    font-size: 18px;
+    line-height: 24px;  
+    font-family: "montserrat";
+}
+
+.cloud-check-text{
+    color: black;
+    font-family: "montserrat";
+}
+
+.elige_tuplan_button{
+    text-decoration: none;
+    font-family: "montserrat";
+    color: white;
+    font-weight: 700;
+}
+
+.tilde_altadisponibilidad {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='purple'><path d='M21.046 5.955c.439.439.439 1.151 0 1.59l-9.538 9.539a1.425 1.425 0 0 1-2.016 0l-4.288-4.288a1.125 1.125 0 0 1 1.591-1.591l3.705 3.704 8.954-8.954c.44-.44 1.152-.44 1.591 0Z'/></svg>");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 4px;
+}
