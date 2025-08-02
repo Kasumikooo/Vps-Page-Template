@@ -24,19 +24,12 @@
     margin-left: 90px;
     box-sizing: border-box;
     transform: translateY(-130px);
-    animation: aparicion1 1.1s ease-out forwards;
+    animation: aparicion 1.1s ease-out forwards;
 }
 
 @keyframes aparicion {
     to {
         opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes aparicion1 {
-    to {
-        opacity: 10;
         transform: translateY(0);
     }
 }

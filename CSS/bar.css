@@ -1,9 +1,7 @@
 .header {
     position: fixed;
-    top: 2%;
-    left: 93%;
-    background-color: transparent;
-    padding: 3px 3px;
+    background-color: rgb(255, 255, 255);
+    padding: 2% 100%;
     z-index: 1000;
 }
 
@@ -13,6 +11,9 @@ li {
 }
 
 .button_micuenta {
+    position: fixed;
+    top: 2%;
+    left: 93%;
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 11px 13px;
@@ -53,8 +54,78 @@ li {
 
 /*   Menu Bar   */
 
-.logo{
-    position: fixed;
-    left: 0%;
+.down-arrow {
+    position: relative;
+    width: 20px;
+    height: 30px;
+    margin-left: 3px;
+    top: 11px;
+    transition: transform 0.3s ease;
 }
 
+.logo {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 15px;
+    left: 4%;
+}
+
+.bar-section {
+    position: fixed;
+    top: 10px;
+    left: 5%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.bar-div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bar-div > ul > li {
+    position: relative;
+    display: inline-block;
+}
+
+.bar-div a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    display: block;
+}
+
+/* Oculta el submenú */
+.bar-div li ul {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    background-color: #f8cff8;
+    border: 1px solid #ccc;
+    min-width: 160px;
+    z-index: 1;
+}
+
+ /* Mostrar submenú al hacer hover */
+.bar-div li:hover > ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.bar-div li:hover .down-arrow {
+    transform: rotate(180deg);
+}
+
+    /* Submenú visible y estilizado */
+.bar-div li ul li a {
+    color: #32003d;
+}
+
+.bar-div li ul li a:hover {
+    background-color: #e7aee7;
+}
