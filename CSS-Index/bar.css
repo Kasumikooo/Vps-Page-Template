@@ -103,7 +103,7 @@ li {
     transform: translateY(-10px);
     transition: all 0.3s ease-in-out;
     position: absolute;
-    background-color: #f8cff8;
+    background-color: #ffffff;
     border: 1px solid #ccc;
     min-width: 160px;
     z-index: 1;

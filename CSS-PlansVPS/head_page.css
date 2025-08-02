@@ -104,16 +104,3 @@
     animation-delay: 1s;
     opacity: 0;
 }
-
-/* Background */
-
-.background-section {
-    background-color: #F8CFF8;
-    width: 100%;
-    padding: 0px 0px;
-    z-index: -1;
-    mask-image: linear-gradient(
-        black 63%,
-        transparent
-    )
-}
