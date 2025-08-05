@@ -13,7 +13,7 @@
 
 /* Index Image */
 .index-img {
-    animation: float 3s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
     mask-image: linear-gradient(
         black 90%,
         transparent
@@ -21,7 +21,7 @@
 }
 
 .cuadrado {
-    animation: float 3s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
 }
 
 @keyframes float {
