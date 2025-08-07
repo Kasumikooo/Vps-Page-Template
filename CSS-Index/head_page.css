@@ -1,35 +1,17 @@
 /* Background */
 
-.background-section {
-    background-color: #F8CFF8;
-    width: 100%;
-    padding: 0px 0px;
-    z-index: -1;
-    mask-image: linear-gradient(
-        black 78%,
-        transparent
-    )
-}
-
 /* Index Image */
 .index-img {
     animation: float 4s ease-in-out infinite;
-    mask-image: linear-gradient(
-        black 90%,
-        transparent
-    ) 
 }
 
-.cuadrado {
-    animation: float 4s ease-in-out infinite;
-}
-
+/* Animation */
 @keyframes float {
     0% {
         transform: translateY(-10px);
     }
     50% {
-        transform: translateY(-30px);
+        transform: translateY(-23px);
     }
     100% {
         transform: translateY(-10px);

@@ -42,17 +42,60 @@
     </div>
 </header>
 
-<section class="relative background-section">
-    <div class="relative div_indeximg">
-        <img src="SVG/index-image.svg" class="w-170 h-170 relative items-end justify-self-end pt-30 mr-10 index-img">
-    </div>
-    </section>
+<main class="main_index grid grid-cols-1 md:grid-cols-2 overflow-hidden">
+    <section class="relative flex flex-col justify-center items-center h-screen px-8 bg-[#1c2632] text-white transition duration-300 ease-in-out hover:scale-101 will-change-transform hover:bg-gray-800">
+        <h1 class="text-[38px] leading-tight text-center font-bold max-w-[500px] mx-auto">Haz que tus ideas tomen forma y vuelen.</h1>
 
-    <div class="cuadrado absolute left-23 top-1/6 w-1/2 h-1/2 bg-white opacity-80 rounded-lg shadow-lg flex items-center justify-center">
-        <button class="absolute justify-center text-[23px] leading-[40px] font-bold bottom-9 rounded-2xl p-2 px-70 bg-red-200 transition delay-75 duration-400 ease-in-out hover:cursor-pointer hover:scale-105 hover:bg-red-300">¡Mira Nuestros servicios!</button>
-    <h1 class="absolute left-23 top-1/4 text-[33px] leading-10 font-bold ">Haz que tus ideas tomen forma y vuelen.</h1>
-    <h2 class="absolute left-23 top-1/3 text-[33px] leading-10 font-normal">Con nuestros servicios de hosting, tu proyecto está en buenas manos.</h2>
+        <h2 class="text-gray-300 text-center text-xl max-w-[470px] mx-auto mt-3">Con nuestros servicios de hosting, tu proyecto está en buenas manos.</h2>
+
+        <button class="mt-8 text-[23px] leading-[40px] font-bold bg-red-300 text-white px-8 py-2 rounded-3xl transition delay-75 duration-400 ease-in-out cursor-pointer hover:scale-105 will-change-transform hover:bg-red-300">¡Mirá Nuestros servicios!</button>
+    </section>
+    <div class="relative div_indeximg h-screen bg-[#252F3D]">
+        <img src="SVG/index-image.svg" class="w-170 h-170 mt-15 relative items-end justify-self-end pt-30 mr-10 index-img">
     </div>
+</main>
+
+<div>
+<form class="flex flex-col md:flex-row items-center justify-center gap-4 p-6 bg-gray-600">
+    <label class="font-bold text-1x2 text-white">Comienza registrando tu dominio</label>
+
+    <input
+    type="text" 
+    class="px-4 py-2 border rounded-md w-1/4 bg-white"
+    placeholder="Ingresa el dominio de tus sueños"
+    />
+
+    <button class="px-8 py-2.5 bg-blue-600 text-white rounded-2xl transition cursor-pointer hover:scale-105 hover:bg-blue-500 will-change-transform delay-75 duration-400">Buscar</button>
+</form>
+
+    <div class="bg-gray-600 p-4 mt-0 flex justify-center">
+        <div class="flex divide-x divide-[#1f2a36] text-white text-lg">
+            <div class="px-6">
+                <p class="font-bold">.com</p>
+                <p class="text-gray-300">USD 10.99</p>
+        <div class="flex items-center gap-2 mt-2">
+            <img src="SVG/check.svg" alt="check" class="w-5 h-6 -m-1 hover:scale-105 transition duration-300 hover:rotate-360 duration">
+            <span class="text-white">Popular</span>
+        </div>
+            </div>
+            <div class="px-6">
+                <p class="font-bold">.net</p>
+                <p class="text-gray-300">USD 12.99</p>
+                <div class="flex items-center gap-2 mt-2">
+                <img src="SVG/check.svg" alt="check" class="w-5 h-6 -m-1">
+                <span class="text-white">Popular</span>
+                </div>
+            </div>
+            <div class="px-6">
+                <p class="font-bold">.org</p>
+                <p class="text-gray-300">USD 14.99</p>
+            </div>
+            <div class="px-6">
+                <p class="font-bold">.info</p>
+                <p class="text-gray-300">USD 16.99</p>
+            </div>
+    </div>
+</div>
 
 <footer>
         <div class="support_notif">
