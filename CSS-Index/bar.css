@@ -37,17 +37,16 @@ li {
 .support_notif{
     position: fixed;
     padding: 11px 13px;
-    top: 94%;
-    left: 91.7%;
     background-color: hsl(298, 60%, 51%);
     border-color: hsl(300, 7%, 34%);
     border-radius: 25px;
     text-decoration: none;
-    margin: 0;
+    left: 81%;
+    bottom: 1%;
     cursor: pointer;
     color: white;
     transform: translateX(200px);
-    animation: aparicion 1.1s ease-out forwards;
+    animation: aparicion 0.5s ease-in-out forwards;
 }
 
 @keyframes aparicion {
